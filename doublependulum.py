@@ -8,6 +8,8 @@ import scipy.integrate as integrate
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
+
+
 window = Tk()
 window.geometry("900x800")
 window.title("Double Pendulum")
@@ -20,6 +22,7 @@ class App():
         self.ax = self.fig.add_subplot(111, autoscale_on=False, xlim=(-2, 2), ylim=(-2, 2))
         self.ax.grid()
         self.plot1 = FigureCanvasTkAgg(self.fig, master=window).get_tk_widget()
+    
         #Setting up GUI
         self.G = 9.81
         self.mass1 = IntVar()
@@ -90,7 +93,7 @@ class App():
 
         #Animation
         self.ani = animation.FuncAnimation(self.fig, self.animate, np.arange(1, len(self.y)),
-                               interval=25, blit=True, init_func=self.init)
+                               interval=25, blit=False, init_func=self.init)
 
         self.k = 0
 
@@ -98,6 +101,8 @@ class App():
     def start(self):
 
         try:
+           
+
             self.l1= self.length1.get()
             self.l2 = self.length2.get()
             self.m1 = self.mass1.get()
@@ -119,7 +124,7 @@ class App():
     
     def stop(self):
         self.k = 0
-        return k
+        return self.k
         
 
 
@@ -132,14 +137,29 @@ class App():
   
 
     def animate(self,i):
+
+        
+
         if self.k == 0:
             self.ani.event_stop.stop()
         else:
+            #Resize window due to change in length
+            value = max([self.l1+1,self.l2+1])
+            self.ax.set_xlim(-value, value)
+            self.ax.set_ylim(-value,value)
+            
+            
+            
+    
+            
+           
             thisx = [0, self.x1[i], self.x2[i]]
             thisy = [0, self.y1[i], self.y2[i]]
 
             self.line.set_data(thisx, thisy)
             self.time_text.set_text(self.time_template % (i*self.dt))
+
+           
             return self.line, self.time_text
 
     def derivs(self,state, t):
