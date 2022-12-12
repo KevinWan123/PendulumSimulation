@@ -2,5 +2,6 @@
 <img src="SpiderManIcon!.png"></img>
 
 
-#Title
+# Introduction
 <p>Hello! My name is Kevin and this is my Double Pendulum Project</p>
+<p>
