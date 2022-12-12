@@ -17,6 +17,6 @@ $x_1= l_1sin(\theta_1)$ , $x_2= l_2sin(\theta_2)$, $y_1= l_2cos(\theta_2)$ , $y_
 
   
 # Acknowledgement
-- Professor Ryan Cooper
-- Gabe Kole [@gabekole]
+- [Professor Ryan Cooper](https://github.com/cooperrc)
+- [Gabriel Koleszar](https://github.com/gabekole)
 
