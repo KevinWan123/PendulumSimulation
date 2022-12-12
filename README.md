@@ -19,7 +19,10 @@ Next, I can find the velocity and acceleration by taking the derivative.
 -
 -
 
-
+-$x_1'= \theta_1'l_1sin(\theta_1)$
+-$y_1'=\theta_1l_1sin(\theta_1)$
+-$x_2'= x_1'+\theta_2'l_1cos(\theta_2)$
+-$y_2'=y_1'+\theta_2'l_1sin(\theta_2)$
 
 Next, I used Newton's Second Law 
 
