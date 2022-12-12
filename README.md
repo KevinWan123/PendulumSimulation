@@ -44,13 +44,13 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 As you see, in pendulum 1, there are 3 forces, T1, T2,and M1g.
 I can model the equation of motion with the following equation:
 
--$m_1 x_1'' = -T_1sin(\theta_1)+T_2sin(\theta_2)$
--$m_1 y_1''=T_1cos(\theta_1)-T_2cos(\theta_2)-m_1g$
+- $m_1 x_1'' = -T_1sin(\theta_1)+T_2sin(\theta_2)$
+- $m_1 y_1''=T_1cos(\theta_1)-T_2cos(\theta_2)-m_1g$
 
 Looking at FBD for pendulum 2, there are only 2 forces, T2 and Mg.I can model the equation of motion for pendulum 2 with the following equation:
 
--$m_2x_2''=-T_2sin(\theta_2)$
--$m_2y_2''=T_2cos(\theta_2)-m_2g$
+- $m_2x_2''=-T_2sin(\theta_2)$
+- $m_2y_2''=T_2cos(\theta_2)-m_2g$
 
 With the equations of motion, we can solve this by inputting the initial conditions. My initial conditions were,
 $\theta_1=0$, $\theta_2=90$, $\omega_1 =0$, $\omega_2=0$. My length 1, length 2, mass 1, mass 2 are all adjustable in teh program
