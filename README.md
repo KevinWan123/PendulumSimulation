@@ -27,10 +27,8 @@ And acceleration by taking the derivative of the velocity using the product rule
 
 - $x_1''= -\theta_1'^2 l_1\sin(\theta_1)+\theta_1''l_1sin(\theta_1)$
 - $y_1''=\theta_1'^2 l1cos(\theta_1)+\theta_1''l_1sin(\theta_1)$
-- $x_2''= x_1'' - \theta_2'^2 l_2sin(\theta_2)x_1'+\theta_2'l_2cos(\theta_2)$
-- $y_2''=y_1'+\theta_2'l_2sin(\theta_2)$
-
-
+- $x_2''= x_1'' - \theta_2'^2 l_2sin(\theta_2)+\theta_2''l_2cos(\theta_2)$
+- $y_2''=y_1''+\theta_2'' l_2cos(\theta_2)+theta_2''l_2sin(\theta_2)
 Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 
 
