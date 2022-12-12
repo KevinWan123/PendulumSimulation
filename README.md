@@ -42,7 +42,12 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 
 
 As you see, in pendulum 1, there are 3 forces, T1, T2,and M1g.
-I can model the equation of motion with
+I can model the equation of motion with the following equation:
+$m_1x_1'' = -T_1sin(\theta_1)+T_2sin(\theta2)$
+$m_1y_1''=T_1cos(\theta_1)-T_2cos(\theta_2)-m_1g
+
+
+You can also use the langrangian method to solve this. I am more comfortable with this method
 
 
 
