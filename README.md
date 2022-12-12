@@ -44,7 +44,7 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 As you see, in pendulum 1, there are 3 forces, T1, T2,and M1g.
 I can model the equation of motion with the following equation:
 
--$m_1 x_1'' = -T_1sin(\theta_1)+T_2sin(\theta2)$
+-$m_1 x_1'' = -T_1sin(\theta_1)+T_2sin(\theta_2)$
 -$m_1 y_1''=T_1cos(\theta_1)-T_2cos(\theta_2)-m_1g$
 
 Looking at FBD for pendulum 2, there are only 2 forces, T2 and Mg.I can model the equation of motion for pendulum 2 with the following equation:
