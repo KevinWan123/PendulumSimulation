@@ -53,7 +53,7 @@ Looking at FBD for pendulum 2, there are only 2 forces, T2 and Mg.I can model th
 
 With the equations of motion, we can solve this by inputting the initial conditions. My initial conditions were,
 $\theta_1=0$, $\theta_2=90$, $\omega_1 =0$, $\omega_2=0$. My length 1, length 2, mass 1, mass 2 are all adjustable in teh program
-You can also use the langrangian method to solve this. I am more comfortable with this method
+You can also use the langrangian method to solve this. However, I am more comfortable with this method
 
 # My program with Pictures
 
@@ -63,4 +63,4 @@ You can also use the langrangian method to solve this. I am more comfortable wit
 # Acknowledgement
 - [Professor Ryan Cooper](https://github.com/cooperrc)
 - [Gabriel Koleszar](https://github.com/gabekole)
-- <a href="https.web.mit.edu">Amazing resource</a>
+
