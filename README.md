@@ -6,7 +6,7 @@
 <p>Hello! My name is Kevin and this is my Double Pendulum Project. While doing this project, I have learned so much about physics, gui building, and programming in general. I wanted to capture the motion of a double pendulum and have the values of it be constantly adjustable.</p>
 
 Here is a video showing how my program works.
-<a src="https://youtu.be/-DgiQJnjSQc"></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-DgiQJnjSQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p> To start this project, I systematically solved the trajectory of a double pendulum using my knowledge of dynamics.</p>
 Here is an image of a double pendulum.
 <img src= "http://rotations.berkeley.edu/wp-content/uploads/2017/10/double-pendulum.png"></img>
