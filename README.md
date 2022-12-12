@@ -57,6 +57,8 @@ $\theta_1=0$, $\theta_2=90$, $\omega_1 =0$, $\omega_2=0$. My length 1, length 2,
 You can also use the langrangian method to solve this. However, I am more comfortable with this method
 
 # My program with Pictures
+Booting up the program it will look like this
+![image](https://user-images.githubusercontent.com/114878518/206978950-b03af6f0-7250-49ef-9239-151cca20cc57.png)
 
 
 
