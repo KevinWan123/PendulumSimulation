@@ -16,3 +16,7 @@ First, I need obtain the x and y values of each pendulum. To do this I used trig
 $x_1= l_1sin(\theta_1)$ , $x_2= l_2sin(\theta_2)$, $y_1= l_2cos(\theta_2)$ , $y_2= l_2sin(\theta_2)$
 
   
+# Acknowledgement
+Professor Ryan Cooper
+Gabe Kole
+
