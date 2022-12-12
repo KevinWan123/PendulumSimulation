@@ -10,8 +10,6 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 #Code create by Kevin Wan for CE2120
 plt.style.use('dark_background') #Configure plot style. I personally like dark mode
 
-
-
 window = Tk()
 window.iconbitmap('SpiderManIcon!.ico')
 window.geometry("900x800")
@@ -24,9 +22,7 @@ window.configure(bg='black')
 
 class App():
     def __init__(self,master):
-       
-
-
+    
         #Figure
         self.fig = plt.figure(1)
         self.ax = self.fig.add_subplot(111, autoscale_on=False, xlim=(-2, 2), ylim=(-2, 2))
@@ -198,7 +194,8 @@ class App():
         else:
 
             #Resize window due to change in length
-            value = max([self.l1+1,self.l2+1])
+            value = max([self.l1,self.l2])
+            value = 2*value # Make the axis always 2 times the longest length
             self.ax.set_xlim(-value, value)
             self.ax.set_ylim(-value,value)
             
