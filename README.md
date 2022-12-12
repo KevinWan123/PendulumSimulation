@@ -13,6 +13,6 @@ Here is an image of a double pendulum.
 # How I solved the Double Pendulum
 
 First, I need obtain the x and y values of each pendulum. To do this I used trigonomtry to find all the lengths.
-$x_1= l_1sin(\theta_1)$ , $x_2= l_2sin(\theta_2)$, $y_1= l_2cos(\theta_2)$,$y_2= l_2sin(\theta_2)$
+$x_1= l_1sin(\theta_1)$ , $x_2= l_2sin(\theta_2)$, $y_1= l_2cos(\theta_2)$ , $y_2= l_2sin(\theta_2)$
 
   
