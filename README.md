@@ -41,7 +41,8 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 
 
 
-
+As you see, in pendulum 1, there are 3 forces, T1, T2,and M1g.
+I can model the equation of motion with
 
 
 
