@@ -32,7 +32,8 @@ And acceleration by taking the derivative of the velocity using the product rule
 - 
 Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 <img src =
-"https://homework.study.com/cimages/multimages/16/diagram_450x6715469328277118050.png">[Pendulum 1 diagram]
+"(https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/dbl_pendulum_m1.gif)">
+<img src = "https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/dbl_pendulum_m2.gif">
 
 
 
@@ -40,4 +41,4 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 # Acknowledgement
 - [Professor Ryan Cooper](https://github.com/cooperrc)
 - [Gabriel Koleszar](https://github.com/gabekole)
-
+- (https.web.mit.edu)
