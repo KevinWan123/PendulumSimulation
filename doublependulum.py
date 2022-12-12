@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import scipy.integrate as integrate
 import matplotlib.animation as animation
 from tkinter import *
+from tkinter import messagebox
 import scipy.integrate as integrate
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
@@ -118,7 +119,11 @@ class App():
 
 
         self.time_template = 'time = %.1fs'
+        
+       
         self.time_text = self.ax.text(0.05, 0.9, '', transform=self.ax.transAxes)
+
+    
 
 
 
@@ -136,8 +141,13 @@ class App():
                                interval=25, blit=False, init_func=self.init)
 
         self.k = 0
+        
+        #Label For talking about units
+        units = Label(window, text=" All Units are in M and Kg", font=("Arial",8),fg="White",bg="black")
+        units.place(relx=.025, rely=.06)
 
         #start
+
     def start(self):
         #Thinking of adding error cases to try and except
 
@@ -166,8 +176,9 @@ class App():
             self.ani.event_source.start() 
 
         except:
-            #If user makes an error like entering a string spawn a message
+            #If user makes an error like entering a string spawn a message if string is entered
             print('Enter an float value')
+            messagebox.showerror(title="WARNING!", message="Please enter a float or int value in the entry boxes, not letters!")
             self.stop()
     
     def stop(self):
