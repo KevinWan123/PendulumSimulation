@@ -60,6 +60,22 @@ You can also use the langrangian method to solve this. However, I am more comfor
 Booting up the program it will look like this
 ![image](https://user-images.githubusercontent.com/114878518/206978950-b03af6f0-7250-49ef-9239-151cca20cc57.png)
 
+By pressing start it will enter the default value and run the animation for 20 seconds
+![image](https://user-images.githubusercontent.com/114878518/206979120-05fc30c1-259c-4030-9609-186047c22c45.png)
+
+Using the time slider you can change the speed of the simulation
+![image](https://user-images.githubusercontent.com/114878518/206979188-cd8e122a-5b6a-4d14-a787-0eb602663194.png)
+
+You can enter any mass or length you want!
+![image](https://user-images.githubusercontent.com/114878518/206979256-d3aca0f8-1cc7-4723-8dc6-a6b224e90353.png)
+![image](https://user-images.githubusercontent.com/114878518/206979339-b148a76b-cb3b-4c7c-92f0-f4497a391e4e.png)
+
+But make sure you don't input a letter or 0
+![image](https://user-images.githubusercontent.com/114878518/206979409-e9ff02c2-7079-4b26-bd4b-b2f000a49fed.png)
+
+
+
+
 
 
   
