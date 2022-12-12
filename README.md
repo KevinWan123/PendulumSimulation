@@ -34,7 +34,7 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 <img src =
 "(https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/dbl_pendulum_m1.gif)">
 <img src = "https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/dbl_pendulum_m2.gif">
-<img src = "https://user-images.githubusercontent.com/114878518/206973048-11698d7c-f7c1-4ca9-a4f3-40a036480b9b.png)>
+
 
 
 
