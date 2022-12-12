@@ -13,9 +13,14 @@ plt.style.use('dark_background') #Configure plot style. I personally like dark m
 
 
 window = Tk()
+window.iconbitmap('SpiderManIcon!.ico')
 window.geometry("900x800")
 window.title("Double Pendulum")
 window.configure(bg='black')
+
+
+
+
 
 class App():
     def __init__(self,master):
