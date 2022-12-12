@@ -22,7 +22,8 @@ Next, I can find the velocity by taking the derivative
 - $y_1'=\theta_1l_1sin(\theta_1)$
 - $x_2'= x_1'+\theta_2'l_2cos(\theta_2)$
 - $y_2'=y_1'+\theta_2'l_2sin(\theta_2)$
-## And acceleration by taking the derivative of the velocity
+
+And acceleration by taking the derivative of the velocity
 
 - $x_1''= -\theta_1'^2\l_1\sin(\theta_1)\theta_1'l_1sin(\theta_1)$
 - $y_1''=\theta_1l_1sin(\theta_1)$
