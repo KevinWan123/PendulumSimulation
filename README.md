@@ -7,7 +7,7 @@
 
 <p> To start this project, I systematically solved the trajectory of a double pendulum using my knowledge of dynamics.</p>
 Here is an image of a double pendulum.
-<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Double-Pendulum.svg/800px-Double-Pendulum.svg.png" alt = "Pendulums"></img>
+<img src= "https://camo.githubusercontent.com/c4b456f8b34e131104d2ca303a08c33de3201bb10872ba8fce03010368e03828/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f372f37382f446f75626c652d50656e64756c756d2e7376672f38303070782d446f75626c652d50656e64756c756d2e7376672e706e67" alt = "Pendulums"></img>
 
 
 # How I solved the Double Pendulum
