@@ -31,9 +31,9 @@ And acceleration by taking the derivative of the velocity using the product rule
 - $y_2''=y_1''+\theta_2'' l_2cos(\theta_2)+\theta_2''l_2sin(\theta_2)$
 
 Next, I used Newton's Second Law F= MA. I drew the free body diagram.
-
+# FBD 1
 <img src =
-"(https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/dbl_pendulum_m1.gif)"></img>
+"https://www.myphysicslab.com/pendulum/dbl_pendulum_m1.gif"></img>
 
 # FBD 2
 <img src =
