@@ -3,7 +3,7 @@
 
 
 # Introduction
-<p>Hello! My name is Kevin and this is my Double Pendulum Project. While doing this project, I have learned so much about physics, gui building, and programming in general. I wanted to capture the motion of a double pendulum and have the values of it be constantly adjustable.</p>
+<p>Hello! My name is Kevin and this is my Double Pendulum Project. While doing this project, I learned so much about physics, gui building, and programming in general. I started this project because I wanted to capture the motion of a double pendulum while and making it easy for anyone to experiment with it.</p>
 
 ## Here is a video showing how my program works.
 [![Double Pendulum Simulation Program](https://img.youtube.com/vi/-DgiQJnjSQc/0.jpg)](https://www.youtube.com/watch?v=-DgiQJnjSQc)
