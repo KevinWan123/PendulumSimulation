@@ -41,4 +41,4 @@ Next, I used Newton's Second Law F= MA. I drew the free body diagram.
 # Acknowledgement
 - [Professor Ryan Cooper](https://github.com/cooperrc)
 - [Gabriel Koleszar](https://github.com/gabekole)
--<link href="https.web.mit.edu">
+- <link href="https.web.mit.edu">Amazing resourc</link>
