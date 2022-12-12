@@ -1,2 +1,2 @@
 # PendulumSimulation
-<img src="SpiderManIcon!.png></img>
+<img src="SpiderManIcon!.png"></img>
