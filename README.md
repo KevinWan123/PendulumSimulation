@@ -58,6 +58,17 @@ With the equations of motion, we can solve this by inputting the initial conditi
 $\theta_1=0$, $\theta_2=90$, $\omega_1 =0$, $\omega_2=0$. My length 1, length 2, mass 1, mass 2 are all adjustable in the program
 You can also use the langrangian method to solve this. In my Code I used the Runge Kutta to solve the equation of motion numerically, it involves approximating the solution using a weighted average of several estimates of the derivative at different points within each time step.
 
+### Runge Kutta Method of Derivation
+
+$$
+\begin{gathered}
+\theta_{1}{ }^{\prime}=\omega_{1} \\
+\theta_{2}{ }^{\prime}=\omega_{2} \\
+\omega_{1}{ }^{\prime}=\frac{-g\left(2 m_{1}+m_{2}\right) \sin \theta_{1}-m_{2} g \sin \left(\theta_{1}-2 \theta_{2}\right)-2 \sin \left(\theta_{1}-\theta_{2}\right) m_{2}\left(\omega_{2}^{2} L_{2}+\omega_{1}^{2} L_{1} \cos \left(\theta_{1}-\theta_{2}\right)\right)}{L_{1}\left(2 m_{1}+m_{2}-m_{2} \cos \left(2 \theta_{1}-2 \theta_{2}\right)\right)} \\
+\omega_{2}{ }^{\prime}=\frac{2 \sin \left(\theta_{1}-\theta_{2}\right)\left(\omega_{1}^{2} L_{1}\left(m_{1}+m_{2}\right)+g\left(m_{1}+m_{2}\right) \cos \theta_{1}+\omega_{2}^{2} L_{2} m_{2} \cos \left(\theta_{1}-\theta_{2}\right)\right)}{L_{2}\left(2 m_{1}+m_{2}-m_{2} \cos \left(2 \theta_{1}-2 \theta_{2}\right)\right)}
+\end{gathered}
+$$
+
 # My program with Pictures
 Booting up the program it will look like this
 ![image](https://user-images.githubusercontent.com/114878518/206978950-b03af6f0-7250-49ef-9239-151cca20cc57.png)
