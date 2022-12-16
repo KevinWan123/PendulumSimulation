@@ -3,11 +3,11 @@
 
 
 # Introduction
-<p>Hello! My name is Kevin and this is my Double Pendulum Project. While doing this project, I learned so much about physics, gui building, and programming in general. I started this project because I wanted to capture the motion of a double pendulum while making it easy for anyone to experiment with it.</p>
+<p>Hello! My name is Kevin, and I am presenting my Double Pendulum Project. Through this project, I have gained a deeper understanding of physics, as well as developed skills in GUI building and programming. I created this project with the goal of visually demonstrating the motion of a double pendulum while also allowing others to easily explore and experiment with it.</p>
 
 ## Here is a video showing how my program works.
 [![Double Pendulum Simulation Program](https://img.youtube.com/vi/-DgiQJnjSQc/0.jpg)](https://www.youtube.com/watch?v=-DgiQJnjSQc)
-<p> To start this project, I systematically solved the trajectory of a double pendulum using my knowledge of dynamics.</p>
+<p>To begin this project, I utilized my knowledge of dynamics to systematically solve for the trajectory of a double pendulum.</p>
 Here is an image of a double pendulum.
 <img src= "http://rotations.berkeley.edu/wp-content/uploads/2017/10/double-pendulum.png"></img>
 
@@ -56,7 +56,7 @@ Looking at FBD for pendulum 2, there are only 2 forces, T2 and Mg.I can model th
 
 With the equations of motion, we can solve this by inputting the initial conditions. My initial conditions were,
 $\theta_1=0$, $\theta_2=90$, $\omega_1 =0$, $\omega_2=0$. My length 1, length 2, mass 1, mass 2 are all adjustable in the program
-You can also use the langrangian method to solve this. However, I am more comfortable with this method
+You can also use the langrangian method to solve this. In my Code I used the Runge Kutta to solve the equation of motion numerically, it involves approximating the solution using a weighted average of several estimates of the derivative at different points within each time step.
 
 # My program with Pictures
 Booting up the program it will look like this
